@@ -37,7 +37,7 @@ const SampleWorkflow = DefineWorkflow({
 const inputForm = SampleWorkflow.addStep(
   Schema.slack.functions.OpenForm,
   {
-    title: "Send message to channel",
+    title: "Find documentation",
     interactivity: SampleWorkflow.inputs.interactivity,
     submit_label: "Send message",
     fields: {
